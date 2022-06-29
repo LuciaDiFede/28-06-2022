@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar, .footer{
+  padding: 20px 10px;
+  background-color: blueviolet;
+  color: white;
+  display: flex;
+}
+
+img {
+  width: 100px;
+}
+
+
+.products-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.wrapper {
+  margin: 20px;
+  padding: 20px;
+  width: 250px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.178);
+  border-radius: 8px
+}
+
+.loading {
+  display: block;
+}
